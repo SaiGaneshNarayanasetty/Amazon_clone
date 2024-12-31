@@ -3,42 +3,6 @@
     font-family: Arial;
     border: border-box;
 }
-/* For devices with a max width of 768px */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        padding: 10px;
-    }
-    .navbar {
-        flex-direction: column; /* Stack navbar items */
-    }
-    .card {
-        width: 100%; /* Make cards full-width */
-    }
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Add space between items */
-}
-.card {
-    flex: 1 1 calc(50% - 10px); /* Adjust card size on smaller screens */
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-@media (max-width: 768px) {
-    .navbar {
-        display: none; /* Hide the navbar */
-    }
-    .hamburger-menu {
-        display: block; /* Show the hamburger menu */
-    }
-}
-
 .nevbar{
     height: 60px;
     background-color: #0f1111;
